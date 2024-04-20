@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "esbuild": "0.20.2"
+  },
+  "scripts": {
+    "build": "esbuild main.js --bundle --outfile=out.js",
+    "debug": "esbuild main.js --bundle --outfile=out.js --watch --sourcemap"
+  },
+  "dependencies": {
+    "playcanvas": "^1.69.2"
+  }
+}
